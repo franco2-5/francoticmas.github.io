@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #FFF8F0;
+}
+.name {
+    width: 100%;
+    height: 300px;
+    background: #54DEFD;
+    transform: skewY(-5deg);
+
+}
+
+.name .content{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.name .content .p-1{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 65px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+.name .content .p-2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+
+}
+.name .imagen{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+.name .imagen img{
+    width: 180px;
+    height: 180px;
+}
+.info{
+    width: 90%;
+    height: auto;
+    background: #54DEFD;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.info .tituloseccion{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px black solid;
+
+}
+.info .tituloinfo{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.info .infoinfo{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+
+.info span{
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: rebeccapurple;
+    color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 100px;
+}
